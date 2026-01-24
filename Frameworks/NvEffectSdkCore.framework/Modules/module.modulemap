@@ -1,0 +1,5 @@
+framework module NvEffectSdkCore {
+    umbrella header "NvEffectSdkCore.h"
+    export *
+    module * { export * }
+}
