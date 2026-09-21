@@ -19,11 +19,11 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "NveEffectKit",
-            path: "Frameworks/NveEffectKit.framework"
+            path: "Frameworks/NveEffectKit.xcframework"
         ),
         .binaryTarget(
             name: "NvEffectSdkCore",
-            path: "Frameworks/NvEffectSdkCore.framework"
+            path: "Frameworks/NvEffectSdkCore.xcframework"
         )
     ]
 )

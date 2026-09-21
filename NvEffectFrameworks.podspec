@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NvEffectFrameworks"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "NvEffect Frameworks"
   spec.description  = "Core frameworks for NvEffect including NveEffectKit and NvEffectSdkCore"
   spec.homepage     = "https://github.com"
@@ -30,8 +30,8 @@ Pod::Spec.new do |spec|
   }
 
   spec.ios.vendored_frameworks = [
-    'Frameworks/NveEffectKit.framework',
-    'Frameworks/NvEffectSdkCore.framework'
+    'Frameworks/NveEffectKit.xcframework',
+    'Frameworks/NvEffectSdkCore.xcframework'
   ]
 
   spec.ios.xcconfig = {
