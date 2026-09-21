@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NvEffectFrameworks"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "NvEffect Frameworks"
   spec.description  = "Core frameworks for NvEffect including NveEffectKit and NvEffectSdkCore"
   spec.homepage     = "https://github.com"
